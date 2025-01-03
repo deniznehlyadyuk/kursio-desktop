@@ -1,0 +1,11 @@
+Geliştirme:
+- Öğrenci direkt planlanmış kursa eklenebilsin                                  [-]
+- Öğrencinin ait olduğu planlanmış kurslar görüntülenebilmeli                   [-]
+- İstatistiklerin tutulduğu bir tab oluşturulmalı                               [-]
+
+Hardening:
+- Navigation işlemleri feature içerisinde olmamalı, page üzerinden akmalı       [-]
+- Event adları yaptıkları işlemleri anlatmalı                                   [-]
+
+Geleceğe Dair:
+- View oluşturma gelebilir                                                      [-]

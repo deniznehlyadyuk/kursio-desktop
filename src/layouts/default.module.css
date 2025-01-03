@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: #F6F6F8;
+}
+
+.navbar {
+  gap: 12px;
+  background-color: white;
+  border-right: 1px solid #F2F2F2;
+  color: #474A57;
+
+  .container {
+    position: relative;
+
+    .expandButton {
+      position: absolute;
+      right: calc(-1 * var(--mantine-spacing-xs) - 9px);
+      top: 8px;
+    }
+
+    & > a {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      text-decoration: none;
+      color: unset;
+      padding: 12px 12px;
+      border-radius: 8px;
+      transition: all .1s ease-in-out;
+    }
+  }
+
+  :global {
+    a.active {
+      background-color: #377CF6;
+      color: white;
+    }
+
+    a:not(.active):hover {
+      background-color: rgba(0,0,0,0.05);
+    }
+  }
+}
